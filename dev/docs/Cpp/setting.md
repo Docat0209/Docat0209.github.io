@@ -6,7 +6,7 @@ categories:
 tags:
 - Cpp
 ---
-## 下載安裝黨
+## 下載安裝檔
 
 [vscode](https://code.visualstudio.com/Download)
 
@@ -67,6 +67,8 @@ tags:
 
 等待安裝完成 並重開vscode
 
+## c++程式執行
+
 點擊左上角的`File`選單 並按下`Open Folder`按鈕
 
 尋找剛剛的`Cpp`資料夾路徑
@@ -98,7 +100,7 @@ int main()
 
 切換到`Test.cpp`
 
-之後按下右上角的![](https://i.imgur.com/OacWXTM.png)按鈕
+之後只需按下右上角的![](https://i.imgur.com/OacWXTM.png)按鈕
 
 即可成功執行 C++ 程式
 
