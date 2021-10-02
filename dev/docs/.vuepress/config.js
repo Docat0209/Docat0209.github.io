@@ -7,20 +7,20 @@ module.exports = {
     ],
     theme: "reco",
     themeConfig: {
-        mode: 'light', 
+        mode: 'auto', 
         modePicker: true, 
         type: 'blog',
-        logo: '/favicon.ico',
+        logo: '/page.png',
         author: 'Docat0209',
-        authorAvatar: '/favicon.ico',
+        authorAvatar: '/page.png',
         blogConfig: {
             category: {
                 location: 2,
-                text: 'Category'
+                text: '專案'
             },
             tag: {
                 location: 3,
-                text: 'Tag'
+                text: '標籤'
             }
         },
         friendLink: [
@@ -31,14 +31,14 @@ module.exports = {
             }
         ],
         nav: [
-            { text: 'Home', link: '/', icon: 'reco-home' },
-            { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+            { text: '首頁', link: '/', icon: 'reco-home' },
+            { text: '時間線', link: '/timeline/', icon: 'reco-date' },
             {
-                text: 'About',
+                text: '關於我',
                 icon: 'reco-account',
                 items: [
                     { text: 'GitHub', link: 'https://github.com/Docat0209', icon: 'reco-github' },
-                    { text: 'Email', link: 'https://shane930209@gmail.com', icon: 'reco-mail' }
+                    { text: 'Gmail', link: 'https://shane930209@gmail.com', icon: 'reco-mail' }
                 ]
             }
         ],
