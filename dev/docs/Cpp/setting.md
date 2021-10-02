@@ -81,7 +81,7 @@ tags:
 
 在裡面輸入以下程式碼
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int main()
