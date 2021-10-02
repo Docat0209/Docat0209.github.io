@@ -122,7 +122,7 @@ yarn docs:dev #剛剛加入的腳本
 這次選用了一個叫做vuepress-reco的theme
 
 安裝方法如下
-```zh
+```sh
 yarn add vuepress-theme-reco
 ```
 ```js
@@ -403,7 +403,7 @@ git push origin master
 
 新增完 AutoUpdate.bat 之後請將裡面的內容修改成
 
-```bat
+```sh
 @echo off
 set /p var=PleaseEnterCommitMessage:
 call cmd /c " cd/d .\dev &&yarn docs:build && cd/d .. &&XCOPY .\dev\docs\.vuepress\dist  .\docs  /e /d /y && git add -A && git commit -m"%var%"&& git push -u origin master"

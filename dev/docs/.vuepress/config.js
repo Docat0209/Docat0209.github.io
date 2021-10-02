@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Docat0209',
-    description: '實作心得與教學',
+    title: 'Docat',
+    description: '個人實作心得與教學',
     head: [
         ['link', { rel: 'icon', href: './page.png' }],  
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
@@ -26,8 +26,13 @@ module.exports = {
         friendLink: [
             {
                 title: 'Docat0209',
-                desc: 'My own Github',
+                desc: 'Github網站',
                 link: 'https://github.com/Docat0209'
+            },
+            {
+                title: 'URLoser404',
+                desc: 'Github網站',
+                link: 'https://urloser404.github.io/'
             }
         ],
         nav: [
