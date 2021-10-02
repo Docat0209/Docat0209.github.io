@@ -5,6 +5,7 @@ categories:
 - Windows 作業系統研究
 tags:
 - Windows
+- Microsoft
 ---
 
 ## 前言
