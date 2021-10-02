@@ -7,6 +7,7 @@ module.exports = {
     ],
     theme: "reco",
     themeConfig: {
+        subSidebar: 'auto',
         mode: 'auto', 
         modePicker: true, 
         type: 'blog',
@@ -18,6 +19,14 @@ module.exports = {
               lang: 'zh-TW'
             },
         },
+        plugins: [
+            [
+              "vuepress-plugin-back-to-top",
+              {
+                icon: 'BackToTop.png'
+              }
+            ]
+          ],
         keyPage: {
             color: '#42b983', 
             lineColor: '#42b983'
