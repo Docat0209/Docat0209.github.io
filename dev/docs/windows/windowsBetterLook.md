@@ -17,15 +17,15 @@ Windows 作為一個每天都在使用的作業系統
 
 ## 工具介紹
 
-# Wallpaper Engine
+### Wallpaper Engine
 
 Steam 上最著名的動態桌布軟體 [商店連結](https://store.steampowered.com/app/431960/Wallpaper_Engine/)
 
-# TranslucentTB
+### TranslucentTB
 
 Microsoft Store 上可以下載到的隱藏工具欄背景的軟體 [商店連結](https://www.microsoft.com/en-us/p/translucenttb/9pf4kz2vn4w9)
 
-# Rainmeter
+### Rainmeter
 
 可互動式的多功能的桌面小物件軟體 [下載連結](https://www.rainmeter.net/)
 
@@ -39,7 +39,7 @@ Microsoft Store 上可以下載到的隱藏工具欄背景的軟體 [商店連�
 
 非常建議特價時入手
 
-# Wallpaper Engine
+### Wallpaper Engine
 
 透過 Steam 下載完後即可使用
 
@@ -47,7 +47,7 @@ Wallpaper Engine 比起其他動態桌布還來的優勢的原因便是在 Steam
 
 透過 Wallpaper Engine 便能挑選和下載自己喜歡的桌布
 
-# TranslucentTB
+### TranslucentTB
 
 透過工作列右下角的 TranslucentTB 圖示 右鍵即可打開設定選單
 
@@ -56,7 +56,7 @@ Wallpaper Engine 比起其他動態桌布還來的優勢的原因便是在 Steam
 透過選單將工作列調整為`Clear`即可完成調整
 
 
-# Rainmeter
+### Rainmeter
 
 可以透過網路上尋找自己想要的 Skin 並在 Rainmeter 的管理器上雙擊即可啟用與停用
 
