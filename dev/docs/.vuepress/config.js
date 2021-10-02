@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Docat0209',
-    description: '雞雞',
+    description: '實作心得與教學',
     head: [
         ['link', { rel: 'icon', href: './page.png' }],  
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
@@ -32,9 +32,9 @@ module.exports = {
         ],
         nav: [
             { text: '首頁', link: '/', icon: 'reco-home' },
-            { text: '時間線', link: '/timeline/', icon: 'reco-date' },
+            { text: '網站歷史', link: '/timeline/', icon: 'reco-date' },
             {
-                text: '關於我',
+                text: '個人連結',
                 icon: 'reco-account',
                 items: [
                     { text: 'GitHub', link: 'https://github.com/Docat0209', icon: 'reco-github' },

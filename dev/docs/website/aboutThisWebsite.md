@@ -1,40 +1,27 @@
 ---
-title: abcd
-date: 2021-01-01
+title: 如何著手製作個人部落格並架到Github上
+date: 2021-10-02
 categories:
-- 標題一
+- 個人部落格
 tags:
-- 標題一
+- Website
 ---
-# 個人部落格搭建
 
-[Github Source code](https://github.com/URLoser404/URLoser404.github.io)
-
-[URLoser404](https://urloser404.github.io)
-
-[Blog doc](https://urloser404.github.io/projects/BlogBuild.html#%E4%BE%86%E7%94%B1)
-
-[hackmd](https://hackmd.io/@IWLYF/ryp6ROvQt)
+[Github Source code](https://github.com/Docat0209/Docat0209.github.io/)
 
 
 ## 來由
-一直以來都想要搭建一個屬於自己的部落格
+看到學弟建了一個個人網頁
 
-也嘗試過許多架構
+所以我也就跟著建了一個
 
-例如flask +  heroku 的組合
+這篇文章是由學弟的文章所做的延伸
 
-又或是直接在hackmd上面寫
+修改裡面美中不足的地方
 
-後來看到了vuepress架構
+與我安裝過程中遇到的問題
 
-加上本人超愛純markdown語法的
-
-便馬上開始搭建
-
-於是就有了現在這個網站
-
-之後的文章應該也都會陸續搬家到這裡
+以及我所新增的東西
 
 ## 介紹
 vuepress是node.js為基礎的靜態網頁生成工具
@@ -81,7 +68,7 @@ yarn add -D vuepress
 
 #### 創建文件資料夾
 ```sh
-mkdir docs && echo '# 網站首頁' > docs/README.md
+mkdir docs && echo '# 網站首頁' > docs/index.md
 ```
 #### 編輯yarn設定檔
 ```json
@@ -150,7 +137,7 @@ module.exports = {
 安裝完後可以直接根據vuepress-reco的官方文檔進行建置
 
 #### 製作主頁
-直接使用剛剛的README.md來當作部落格的主頁
+直接使用剛剛的index.md來當作部落格的主頁
 
 在首頁中要額外加入yaml的設定
 
@@ -178,7 +165,7 @@ home: true
 ├── docs
 │   ├── .vuepress 
 │   │   └── config.js 
-│   └── README.md
+│   └── index.md
 └── package.json
 ```
 
@@ -193,7 +180,7 @@ home: true
 │   │   └── config.js 
 │   ├── 文章一
 │   ├── 文章二
-│   └── README.md
+│   └── index.md
 └── package.json
 ```
 也可以在docs裡面用資料夾進行分類
@@ -209,7 +196,7 @@ home: true
 │   ├── 分類二
 │   │   ├── 文章三
 │   │   └── 文章四
-│   └── README.md
+│   └── index.md
 └── package.json
 ```
 
@@ -230,6 +217,8 @@ tags:
 如下
 
 ![](https://i.imgur.com/9yQx2Iv.png)
+
+注意!! 檔案與資料夾命名必須使用英文 否則無法轉換成靜態網頁
 
 #### 製作導覽列
 
@@ -268,7 +257,7 @@ module.exports = {
 │   ├── 分類二
 │   │   ├── 文章三
 │   │   └── 文章四
-│   └── README.md
+│   └── index.md
 └── package.json
 ```
 
@@ -276,7 +265,7 @@ module.exports = {
 ```js
 module.exports = {
     head: [                                              //在html的 head中加入連結
-        ['link', { rel: 'icon', href: '/favicon.ico' }]  //
+        ['link', { rel: 'icon', href: './favicon.ico' }]  //
     ]                                                    //
 }
 ```
@@ -390,28 +379,40 @@ git push origin master
 
 整個網頁即可成功上線
 
-[成品](https://urloser404.github.io)
+[成品](https://docat0209.github.io)
 
-## 心得
+### 全自動.bat檔案建立
 
-這次完成了自己一直以來都想要的個人部落格
+若要更新靜態網站是一件十分麻煩的事情
 
-除了了解更多markdown語法的奇怪用途
+所以我寫了一個可以一鍵 轉換靜態網站/複製資料到正確路徑/上傳到Github 這三種功能
 
-還了解到node.js生態的龐大
+請確保資料結構如下
 
-算是一個小小的side project
+```
+├── dev (請新增此資料夾 並把檔案丟入dev)
+│   ├── docs
+│   │   ├── .vuepress 
+│   │   ├── public
+│   │   └── config.js 
+│   ├── index.md
+│   └── package.json
+├── docs (請新增此資料夾)
+└── AutoUpdate.bat (請新增此檔案)
+```
 
-加上最近想開始經營github
+新增完 AutoUpdate.bat 之後請將裡面的內容修改成
 
-做完了這個之後
-
-除了會在上面放一些廢文
-
-之後大部分專案的內容也會同步放在github跟這裡
+```bat
+@echo off
+set /p var=PleaseEnterCommitMessage:
+call cmd /c " cd/d .\dev &&yarn docs:build && cd/d .. &&XCOPY .\dev\docs\.vuepress\dist  .\docs  /e /d /y && git add -A && git commit -m"%var%"&& git push -u origin master"
+```
 
 ## 參考
 
 [Vuepress](https://vuepress.vuejs.org)
 
 [Vuepress-reco](https://vuepress-theme-reco.recoluan.com)
+
+[學弟的教學文章](https://urloser404.github.io/projects/BlogBuild.html#%E4%BE%86%E7%94%B1)
