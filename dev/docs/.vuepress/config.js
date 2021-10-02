@@ -21,10 +21,11 @@ module.exports = {
         },
         plugins: [
             [
-              "vuepress-plugin-back-to-top",
+              "@vuepress-reco/vuepress-plugin-back-to-top",
               {
                 icon: './BackToTop.png'
-              }
+              },
+              "@vuepress-reco/vuepress-plugin-loading-page",false
             ]
           ],
         keyPage: {
