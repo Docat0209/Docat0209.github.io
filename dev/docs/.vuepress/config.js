@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Docat',
-    description: '個人實作心得與教學',
+    title: '微軟職種部落格',
+    description: 'Docat\'s Blog',
     head: [
         ['link', { rel: 'icon', href: './page.png' }],  
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
@@ -13,6 +13,15 @@ module.exports = {
         logo: '/page.png',
         author: 'Docat0209',
         authorAvatar: '/page.png',
+        locales: {
+            '/': {
+              lang: 'zh-TW'
+            },
+        },
+        keyPage: {
+            color: '#42b983', 
+            lineColor: '#42b983'
+        },
         blogConfig: {
             category: {
                 location: 2,
