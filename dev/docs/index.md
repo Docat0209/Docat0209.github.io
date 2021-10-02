@@ -1,5 +1,9 @@
 ---
 home: true
+bgImageStyle: {
+  height: '500px'
+}
+heroText: null
 heroImage: /hero.jpg,
 heroImageStyle: {
   maxHeight: '200px',
@@ -9,6 +13,7 @@ heroImageStyle: {
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
 ---
+v 1.0.0
 # 網站首頁
 
 這是一個費柴的網頁
