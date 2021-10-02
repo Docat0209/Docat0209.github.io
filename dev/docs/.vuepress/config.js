@@ -23,7 +23,7 @@ module.exports = {
             [
               "vuepress-plugin-back-to-top",
               {
-                icon: 'BackToTop.png'
+                icon: './BackToTop.png'
               }
             ]
           ],
