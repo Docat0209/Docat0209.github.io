@@ -2,7 +2,7 @@ module.exports = {
     title: 'Docat0209',
     description: '雞雞',
     head: [
-        ['link', { rel: 'icon', href: '/page.png' }],  
+        ['link', { rel: 'icon', href: './page.png' }],  
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
     theme: "reco",
