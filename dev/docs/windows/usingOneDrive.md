@@ -1,7 +1,7 @@
 ---
 title: OneDrive 使用教學
 date: 2021-10-02
-sidebar: 'auto'
+sidebar: auto
 categories:
 - Windows 作業系統研究
 tags:
