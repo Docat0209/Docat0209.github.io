@@ -1,6 +1,7 @@
 ---
 title: Cpp 教學 Chapter - 0 環境建置
 date: 2021-10-02
+sidebar: 'auto'
 categories:
 - Cpp 教學
 tags:
