@@ -4,6 +4,7 @@ bgImage: hero.jpg
 bgImageStyle: {
   height: '350px'
 }
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 ---
 v 1.0.5
 # 網站首頁
