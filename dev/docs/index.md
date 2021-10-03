@@ -4,7 +4,7 @@ bgImageStyle: {
   height: '500px'
 }
 heroText: null
-heroImage: page.png,
+heroImage: hero.jpg,
 heroImageStyle: {
   maxHeight: '200px',
   display: block,
@@ -13,7 +13,7 @@ heroImageStyle: {
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
 ---
-v 1.0.2
+v 1.0.3
 # 網站首頁
 
 這是一個費柴的網頁
