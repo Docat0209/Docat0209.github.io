@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: null
-bgImage: '/hero.png'
+bgImage: /hero.png
 bgImageStyle: {
   height: '350px'
 }
