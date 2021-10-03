@@ -1,11 +1,20 @@
 module.exports = {
     title: '微軟職種部落格',
     description: 'Docat\'s Blog',
+    theme: "reco",
     head: [
         ['link', { rel: 'icon', href: './page.png' }],  
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
-    theme: "reco",
+    plugins: [
+        [
+            "@vuepress-reco/back-to-top", 
+            {
+                icon: 'page.png'
+            }
+        ],
+        ["@vuepress-reco/vuepress-plugin-loading-page", false]
+      ],
     themeConfig: {
         subSidebar: 'auto',
         mode: 'auto', 
@@ -19,14 +28,6 @@ module.exports = {
               lang: 'zh-TW'
             },
         },
-        plugins:{
-            BackToTop:false,
-            LoadingPage:false
-        },
-        keyPage: {
-            color: '#42b983', 
-            lineColor: '#42b983'
-        },
         blogConfig: {
             category: {
                 location: 2,
@@ -37,6 +38,14 @@ module.exports = {
                 text: '標籤'
             }
         },
+        sidebar: {
+            '/docs/theme-reco/': [
+              '',
+              'theme',
+              'plugin',
+              'api'
+            ]
+          },  
         friendLink: [
             {
                 title: 'Docat0209',
@@ -61,7 +70,6 @@ module.exports = {
                 ]
             }
         ],
-        noFoundPageByTencent: false,
-        subSidebar: 'auto'
+        noFoundPageByTencent: false
     }
 }

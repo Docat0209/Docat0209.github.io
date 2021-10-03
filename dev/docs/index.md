@@ -4,7 +4,7 @@ bgImageStyle: {
   height: '500px'
 }
 heroText: null
-heroImage: hero.jpg,
+heroImage: hero.jpg
 heroImageStyle: {
   maxHeight: '200px',
   display: block,
