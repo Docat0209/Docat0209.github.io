@@ -8,7 +8,8 @@ module.exports = {
     ],
     plugins: 
     [
-        ["@vuepress-reco/vuepress-plugin-loading-page", false]
+        ["@vuepress-reco/vuepress-plugin-loading-page", false],
+        ['ribbon']
     ],
     themeConfig: {
         subSidebar: 'auto',
