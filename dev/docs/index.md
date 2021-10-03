@@ -1,15 +1,12 @@
 ---
 home: true
 heroText: null
-heroImage: hero.jpg
-heroImageStyle: {
-  maxHeight: '100%',
-  display: block,
-  margin: '6rem auto 1.5rem',
-  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
+bgImage: '/hero.png'
+bgImageStyle: {
+  height: '350px'
 }
 ---
-v 1.0.4
+v 1.0.5
 # 網站首頁
 
 這是一個費柴的網頁

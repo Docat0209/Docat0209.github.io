@@ -6,15 +6,10 @@ module.exports = {
         ['link', { rel: 'icon', href: './page.png' }],  
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
-    plugins: [
-        [
-            "@vuepress-reco/back-to-top", 
-            {
-                icon: 'page.png'
-            }
-        ],
+    plugins: 
+    [
         ["@vuepress-reco/vuepress-plugin-loading-page", false]
-      ],
+    ],
     themeConfig: {
         subSidebar: 'auto',
         mode: 'auto', 
@@ -38,14 +33,7 @@ module.exports = {
                 text: '標籤'
             }
         },
-        sidebar: {
-            '/docs/theme-reco/': [
-              '',
-              'theme',
-              'plugin',
-              'api'
-            ]
-          },  
+        sidebar: 'auto',  
         friendLink: [
             {
                 title: 'Docat0209',
