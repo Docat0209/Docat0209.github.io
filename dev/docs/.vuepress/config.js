@@ -19,15 +19,10 @@ module.exports = {
               lang: 'zh-TW'
             },
         },
-        plugins: [
-            [
-                "@vuepress-reco/back-to-top",
-                {
-                    icon: './BackToTop.png'
-                }
-            ],
-            ["@vuepress-reco/loading-page",false]
-          ],
+        plugins:{
+            BackToTop:false,
+            LoadingPage:false
+        },
         keyPage: {
             color: '#42b983', 
             lineColor: '#42b983'
