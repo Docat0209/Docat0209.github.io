@@ -10,12 +10,17 @@ tags:
 - File
 ---
 ## What is AllowDrop?
+
 AllowDrop is a property of `control`; It can allow you to drag a file on that control view.
+
 You can throw this property to design a program to drag your file and open it.
 
 Here is an example:
+
 ![](https://i.imgur.com/kdPwEEf.png)
+
 I set a Panel on the left and a RichTextBox on the right, and I created two events on Panel,
+
 DragEnter and DragDrop, and I coding some code for this.
 
 ```CS
@@ -43,7 +48,9 @@ private void panel_DragDrop(object sender, DragEventArgs e)
     }
 }
 ```
+
 Example for website:
+
 ```CS
         if (Path.GetExtension(FilePath) == ".png")
         {
