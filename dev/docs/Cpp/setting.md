@@ -25,7 +25,7 @@ tags:
 
 ## 安裝 minGW
 
-安裝 `vscode 安裝檔`
+安裝 `vscode-安裝檔`
 
 透過 `windows search(windows 搜索功能)`尋找`MinGW Installation Manager`並開啟
 
@@ -78,7 +78,7 @@ tags:
 
 按下![](https://i.imgur.com/Q5FuW9j.png)按鈕新增一個叫做`Test.cpp`的檔案
 
-點擊`Test.cpp`來檢視
+點擊`Test.cpp` 來檢視
 
 在裡面輸入以下程式碼
 

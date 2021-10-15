@@ -19,9 +19,9 @@ Here is an example:
 
 ![](https://i.imgur.com/kdPwEEf.png)
 
-I set a Panel on the left and a RichTextBox on the right, and I created two events on Panel,
+I set a Panel on the left and a RichTextBox on the right, then I created two events on Panel DragEnter and DragDrop, 
 
-DragEnter and DragDrop, and I coding some code for this.
+and I coding some code for them.
 
 ```CS
 private void panel_DragEnter(object sender, DragEventArgs e)
