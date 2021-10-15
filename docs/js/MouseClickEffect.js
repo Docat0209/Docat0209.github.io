@@ -127,8 +127,10 @@ this.r = this.fn.r(this.r);
         canvas.width = window.innerWidth;
         canvas.setAttribute('style', 'position: fixed;left: 0;top: 0;pointer-events: none;');
         canvas.setAttribute('id', 'canvas_sakura');
+        canvas.style.zIndex = -1
         document.getElementsByTagName('body')[0].appendChild(canvas);
         cxt = canvas.getContext('2d');
+        cxt.globalAlpha = 0.8
         var sakuraList = new SakuraList();
         for(var i = 0; i < 50; i++) {
             var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
