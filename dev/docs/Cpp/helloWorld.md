@@ -1,7 +1,6 @@
 ---
 title: Cpp 教學 Chapter - 1 Hello World !!
 date: 2021-10-02
-sidebar: auto
 publish: false
 categories:
 - Cpp 教學

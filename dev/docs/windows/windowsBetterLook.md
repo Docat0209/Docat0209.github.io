@@ -1,7 +1,6 @@
 ---
 title: 如何讓 Windows 變得更加的好看
 date: 2021-10-02
-sidebar: auto
 categories:
 - Windows 作業系統研究
 tags:

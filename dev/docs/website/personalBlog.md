@@ -1,7 +1,7 @@
 ---
 title: 如何著手製作個人部落格並架到Github上
 date: 2021-10-02
-sidebar: auto
+
 categories:
 - 個人部落格
 tags:

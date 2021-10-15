@@ -1,9 +1,8 @@
 ---
 title: Winform AllowDrop and file reading 
 date: 2021-10-08
-sidebar: auto
 categories:
-- C# Control Properties
+- CSharp 元件屬性
 tags:
 - C#
 - Properties
