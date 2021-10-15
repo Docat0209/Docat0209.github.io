@@ -1,3 +1,4 @@
+
 module.exports = {
     title: '微軟職種部落格',
     description: 'Docat\'s Blog',
@@ -14,7 +15,7 @@ module.exports = {
           "language": "javascript",
           "type": "text/javascript",
           "src": "./js/MouseClickEffect.js"
-        }]       
+        }]
     ],
     plugins: 
     [
@@ -38,11 +39,11 @@ module.exports = {
             tip: {
                 content: "複製成功!"
             }
-          }]
+        }],
+        ["vuepress-plugin-auto-sidebar", {}]
       
     ],
     themeConfig: {
-        subSidebar: 'auto',
         mode: 'dark', 
         modePicker: false, 
         type: 'blog',
