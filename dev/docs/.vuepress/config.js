@@ -4,12 +4,46 @@ module.exports = {
     theme: "reco",
     head: [
         ['link', { rel: 'icon', href: './page.png' }],  
-        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+        // 引入jquery
+        ["script", {
+          "language": "javascript",
+          "type": "text/javascript",
+          "src": "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"
+        }],
+        // 引入鼠标点击脚本
+        ["script", {
+          "language": "javascript",
+          "type": "text/javascript",
+          "src": "./js/MouseClickEffect.js"
+        }]       
     ],
     plugins: 
     [
         ["@vuepress-reco/vuepress-plugin-loading-page", false],
-        ['ribbon']
+        ['ribbon'],
+        [
+            "dynamic-title",
+            {
+              showText: "(/≧▽≦/)！",
+              hideText: "(●—●)！",
+              recoverTime: 2000
+            }
+        ],
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: {
+                message: "網站更新啦",
+                buttonText: "刷新"
+            }
+        }],
+        ["vuepress-plugin-nuggets-style-copy", {
+            copyText: "複製程式碼",
+            tip: {
+                content: "複製成功!"
+            }
+          }]
+      
     ],
     themeConfig: {
         subSidebar: 'auto',
@@ -61,4 +95,5 @@ module.exports = {
         ],
         noFoundPageByTencent: false
     }
+    
 }
