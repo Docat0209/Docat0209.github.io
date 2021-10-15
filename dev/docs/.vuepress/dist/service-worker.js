@@ -27,7 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c7e887d1166986dc35f0dbf2afd7371a"
+    "revision": "cdc93d1568534e779e04c9c3a5379f5d"
+  },
+  {
+    "url": "AllowDrop.html",
+    "revision": "36d026365e16c9363cb07858916606ba"
   },
   {
     "url": "assets/css/0.styles.9d444ee2.css",
@@ -50,48 +54,48 @@ self.__precacheManifest = [
     "revision": "cf3e04e7a6759985a042895e9a6f7486"
   },
   {
-    "url": "assets/js/12.f0abe51c.js",
-    "revision": "d41b65f31bfc7437203b5b6baf826d9e"
+    "url": "assets/js/12.f37f51ff.js",
+    "revision": "aeb3a302a5e16f52a4c9133741698428"
   },
   {
-    "url": "assets/js/13.bf9261ec.js",
-    "revision": "df43d2d7d6ef29df6fade24e8c72292c"
+    "url": "assets/js/13.1d8d4188.js",
+    "revision": "93ad49ed0ec4084f92f1c06f1274ca91"
   },
   {
-    "url": "assets/js/14.67c76720.js",
-    "revision": "edbcea87ee206cbe72c5aa23148c0ef8"
+    "url": "assets/js/14.881a2796.js",
+    "revision": "7b31c22031f190bb5aa8b489211d7255"
   },
   {
-    "url": "assets/js/15.b711a9d0.js",
-    "revision": "78a0ffe052b71dcd21517659a6178c36"
+    "url": "assets/js/15.8082d2c8.js",
+    "revision": "dc15034a86bac3759567f0c2dcabf7d7"
   },
   {
-    "url": "assets/js/16.cb5a4c31.js",
-    "revision": "0a5965276bf11f48764abafd1daef25d"
+    "url": "assets/js/16.2b1f28f9.js",
+    "revision": "72b4789b65e2c88dad9e9737fc0508b3"
   },
   {
-    "url": "assets/js/17.5682a400.js",
-    "revision": "dc02e2ff9c8dcd582eb45a8bf48a7056"
+    "url": "assets/js/17.7b46243a.js",
+    "revision": "5f653cc42d6140dc91528a5c062b7df5"
   },
   {
-    "url": "assets/js/18.e6b3a1b3.js",
-    "revision": "91b17842d6e89253e2108b26eab7431b"
+    "url": "assets/js/18.adfbe8de.js",
+    "revision": "2365070d618320d11c15a1ab45cdd4cb"
   },
   {
-    "url": "assets/js/19.2d53f2df.js",
-    "revision": "5f507237f728bbeb9fff49dbff07614a"
+    "url": "assets/js/19.d8cc35d7.js",
+    "revision": "cb4bfe3552dc37a9f9beed3b0207271c"
   },
   {
     "url": "assets/js/2.0547dd0f.js",
     "revision": "39c760bb237cd30e1e9f377a549ec5dc"
   },
   {
-    "url": "assets/js/20.a948b89a.js",
-    "revision": "04cd32d27eb43c77adeeb8e632325eba"
+    "url": "assets/js/20.8106a8be.js",
+    "revision": "6544970d748c56f56797cfb5273e6131"
   },
   {
-    "url": "assets/js/21.bff02295.js",
-    "revision": "d24c77b8b48c6737f2091c47bc651d03"
+    "url": "assets/js/21.0a13962d.js",
+    "revision": "14cab3a54663c26f084f0605d98d5531"
   },
   {
     "url": "assets/js/22.0367fd95.js",
@@ -122,56 +126,52 @@ self.__precacheManifest = [
     "revision": "f69e7d18f9117f87b18a28036fcc759f"
   },
   {
-    "url": "assets/js/app.cc80938a.js",
-    "revision": "1691997d64e46ae6e302995641c45e26"
+    "url": "assets/js/app.f7164f31.js",
+    "revision": "370fc2959526ddeebf0228292ef5f1bf"
   },
   {
     "url": "categories/C# Control Properties/index.html",
-    "revision": "dbd8cc8f6ee850aaaa51edefe12383cd"
+    "revision": "cdc93d1568534e779e04c9c3a5379f5d"
   },
   {
     "url": "categories/Cpp 教學/index.html",
-    "revision": "0628dffa066fb7a45716557d65152964"
+    "revision": "5b4cd78b119d10302309d16cf1a9be9b"
   },
   {
     "url": "categories/Discord 機器人/index.html",
-    "revision": "b5d637d58a7633ba2beb46889d438da2"
+    "revision": "ffdc6d7a4c2864ce4d713b1ecc8fb1a4"
   },
   {
     "url": "categories/index.html",
-    "revision": "1aae750cee642839451551c90420febc"
+    "revision": "7875fc2baff85ea1fedc87792d4a4302"
   },
   {
     "url": "categories/Windows 作業系統研究/index.html",
-    "revision": "f0143952803017815cc78078c6321e55"
+    "revision": "e4b88ef46a330bee3ff7ff055cfb0c3f"
   },
   {
     "url": "categories/個人部落格/index.html",
-    "revision": "a66f0f2454612d138c2800a7831d8924"
+    "revision": "db4dc472764ee6ab46ca2a01f13ccb0c"
   },
   {
-    "url": "Cpp/helloWorld.html",
-    "revision": "227614e211b43473118865ba95cb083a"
+    "url": "cpp/helloWorld.html",
+    "revision": "4742b95766936766f9ff6bd30b5c1b10"
   },
   {
-    "url": "Cpp/setting.html",
-    "revision": "dccff522bad393c8c4c6054bb5255126"
+    "url": "cpp/index.html",
+    "revision": "65d69744b6972c2f12c95d99d9812532"
   },
   {
-    "url": "CSharp/Winform/Control/pannel.html",
-    "revision": "0239e53c759d44cdd04494ad33736782"
-  },
-  {
-    "url": "CSharp/Winform/Properties/AllowDrop.html",
-    "revision": "ce54c20997c07dcf5a711ecaad8a553c"
-  },
-  {
-    "url": "DiscordBot/firstDiscordBot.html",
-    "revision": "90be760de2caef57e1420176b92519d3"
+    "url": "cpp/setting.html",
+    "revision": "2a90c7dea7893e43e570f7de7d526c55"
   },
   {
     "url": "example.html",
-    "revision": "d29dea0da3d02196a4dd2c668e705d90"
+    "revision": "8f16c51ca6c6963433ec4278877e109e"
+  },
+  {
+    "url": "firstDiscordBot.html",
+    "revision": "4bc452547f3ebe5cd0c7d1a4090b45f2"
   },
   {
     "url": "hero.jpg",
@@ -179,7 +179,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "156494f79c7ad7e63c44428b1d7aa903"
+    "revision": "8283ee712815e504a7716f1254aad0f6"
   },
   {
     "url": "js/MouseClickEffect.js",
@@ -190,64 +190,64 @@ self.__precacheManifest = [
     "revision": "7e6372bfa176e4475de86be57f1f5dcd"
   },
   {
+    "url": "personalBlog.html",
+    "revision": "d532f65a1b31132996bad1e7b0ef4225"
+  },
+  {
     "url": "tag/C#/index.html",
-    "revision": "bdac4db785edef96086ede11648cf024"
+    "revision": "cdc93d1568534e779e04c9c3a5379f5d"
   },
   {
     "url": "tag/Cloud Storage/index.html",
-    "revision": "96ca91266174af82e62364c8002a9112"
+    "revision": "8ab6cb18e3fc3c76091ee72b141f6461"
   },
   {
     "url": "tag/Cpp/index.html",
-    "revision": "c821a9779a4370b3c47263fcd05b4d2c"
+    "revision": "378709628666d9975fde5c470cae019d"
   },
   {
     "url": "tag/Discord/index.html",
-    "revision": "9d8eca05d281b6f93f8206a9526fd4bf"
+    "revision": "0ef652956d150f415bc5f493e2bad3d4"
   },
   {
     "url": "tag/File/index.html",
-    "revision": "fa7023454be1568aae80254c29fd5457"
+    "revision": "7d1f02b9119a0b7951ba4a90a50328b1"
   },
   {
     "url": "tag/index.html",
-    "revision": "c0611ece1460b3ea55ae6f028c507534"
+    "revision": "5d8cd7cac34f07658c15b5ab3cbce860"
   },
   {
     "url": "tag/Microsoft/index.html",
-    "revision": "670674ac6625a391c676ecb305a05017"
+    "revision": "a4789e9634e54b98e0179b13026933ae"
   },
   {
     "url": "tag/Properties/index.html",
-    "revision": "f151e722131ac46394e76e81c11f64cf"
+    "revision": "987b462f136330c774cce08733379f22"
   },
   {
     "url": "tag/Python/index.html",
-    "revision": "0674521bfa8a1cd57f3b3ee80c51f410"
+    "revision": "eaf32e66539b80f3fe55b434e9d2c9ea"
   },
   {
     "url": "tag/Website/index.html",
-    "revision": "e8530c164d1ba5b032f414206c133bf3"
+    "revision": "bb714481d49c4ff434569fd0cbf6fc65"
   },
   {
     "url": "tag/Windows/index.html",
-    "revision": "2a252480e03057751f6747675f99db0d"
+    "revision": "6881098a8d4db0115470e5e7b3e9408c"
   },
   {
     "url": "timeline/index.html",
-    "revision": "d99115be7030be528fabd66fc18d7cae"
+    "revision": "e1dea33ee8b772cf14540ab896d60d5e"
   },
   {
-    "url": "Website/personalBlog.html",
-    "revision": "2ff72c932e04806a47af473d45d22272"
+    "url": "usingOneDrive.html",
+    "revision": "7b10bff55dcffc14c1fbee5a14c7bcf9"
   },
   {
-    "url": "Windows/usingOneDrive.html",
-    "revision": "09a57866d69037080e528f94275f26b6"
-  },
-  {
-    "url": "Windows/windowsBetterLook.html",
-    "revision": "dc5624613f3a3b936a8d712d8aff5955"
+    "url": "windowsBetterLook.html",
+    "revision": "d3834f2749ba5ac0b5515cdfc030ee51"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
