@@ -22,8 +22,7 @@ module.exports = {
         [
             "dynamic-title",
             {
-              showText: "(/≧▽≦/)！",
-              hideText: "(●—●)！",
+              hideText: "不要走~",
               recoverTime: 2000
             }
         ],
