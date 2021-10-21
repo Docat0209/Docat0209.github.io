@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "b58d58d59d38239963ade1994153960a"
+    "revision": "cbea793000e314a375812c1525b06e08"
   },
   {
     "url": "assets/css/0.styles.1f214639.css",
@@ -46,28 +46,28 @@ self.__precacheManifest = [
     "revision": "b18590397111846f2af6c8b98bfa590c"
   },
   {
-    "url": "assets/js/11.61b8fb76.js",
-    "revision": "8709d1d65cdf4c4a43ac33440ba27072"
+    "url": "assets/js/11.1cd68cd1.js",
+    "revision": "db3958658942caae6b381e8500d515a1"
   },
   {
-    "url": "assets/js/12.61afdefa.js",
-    "revision": "cc4e5fd8fc27ddefa022b996fa3176d9"
+    "url": "assets/js/12.6bac1228.js",
+    "revision": "e3999834bde7feec3aa6857bfaf8c7ef"
   },
   {
     "url": "assets/js/13.2ff57abb.js",
     "revision": "ced3cc604e14537a9bd09d309471c398"
   },
   {
-    "url": "assets/js/14.73af5987.js",
-    "revision": "b06bfb3c1a96b6e0cbe30924ed24e9f5"
+    "url": "assets/js/14.11c3b3c5.js",
+    "revision": "b3b4903013681858224e419b7c802747"
   },
   {
-    "url": "assets/js/15.59dfed6b.js",
-    "revision": "9bd127a44bf8f02781899076a966fd72"
+    "url": "assets/js/15.cebaa68f.js",
+    "revision": "832697077c5e6ae8e2e982c6b87dd0d6"
   },
   {
-    "url": "assets/js/16.a4d51998.js",
-    "revision": "6a195c4fa109349689b94f9eeecac546"
+    "url": "assets/js/16.424b7a09.js",
+    "revision": "f6d8a001c28676951f420b8b28f742de"
   },
   {
     "url": "assets/js/17.5bdfdfe2.js",
@@ -114,52 +114,52 @@ self.__precacheManifest = [
     "revision": "d29e6581d6b8b4729e98b6da77428369"
   },
   {
-    "url": "assets/js/app.55ac2726.js",
-    "revision": "01d4fa6d620c5aa4f4aad30e7e03d6dc"
+    "url": "assets/js/app.cd20b650.js",
+    "revision": "5d2ba7b1af95da7aa7b78c6cca442bbe"
   },
   {
     "url": "categories/Cpp 教學/index.html",
-    "revision": "455120bcc082eeff7b770a79e49a5fd7"
+    "revision": "07b09d5f02a215a081c7a55d4e4badf7"
   },
   {
     "url": "categories/CSharp 元件屬性/index.html",
-    "revision": "eff787cd6ed598deba616a691726e1eb"
+    "revision": "fb0a5f95d092c0bae6436bf82d0c877c"
   },
   {
     "url": "categories/Discord 機器人/index.html",
-    "revision": "cf91eed59b9f6d37c08dee8f4ad575d4"
+    "revision": "e37662afb537362d6424cc4640212222"
   },
   {
     "url": "categories/index.html",
-    "revision": "7e3fc2e7f43a2f0cdcc480afd0bccabb"
+    "revision": "5ae8fb2834faa75597f402c612bc75cf"
   },
   {
     "url": "categories/Windows 作業系統研究/index.html",
-    "revision": "6097c417109ad86a19666cd7cbc09b1e"
+    "revision": "e45fd15bc0345842316c4e06da3d7acb"
   },
   {
     "url": "categories/個人部落格/index.html",
-    "revision": "98acfe02f93d9de4df1167a7035421ad"
+    "revision": "02acdee246b014c5ce345f5bc07e5eac"
   },
   {
     "url": "Cpp/helloWorld.html",
-    "revision": "a11a725b1abbdc7d3f81ff2fc5181430"
+    "revision": "e4a08fe0be6f4b514095b7ad2557f940"
   },
   {
     "url": "Cpp/setting.html",
-    "revision": "47fad61073f132ff1c77db5bfeadb13b"
+    "revision": "8c2fff369325a478d2ca52eebffb71ea"
   },
   {
     "url": "csharp/AllowDrop.html",
-    "revision": "800b25895845c515ceaa973fd32f6c69"
+    "revision": "050e55f12d5ef1965a80ce885ad2af21"
   },
   {
     "url": "discord/firstDiscordBot.html",
-    "revision": "121f8c094b66384a61e2d0f2ab2de7d7"
+    "revision": "4d72cf406f714d34b70af6f8e30d47c7"
   },
   {
     "url": "example.html",
-    "revision": "462c3bbfed67e5713b3f97f9c69d7467"
+    "revision": "549fa4ac518b851082273464a5e1b19f"
   },
   {
     "url": "images.jpg",
@@ -167,7 +167,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "22d81e8ca06a8d59ed8d5726dcc0951e"
+    "revision": "2ccaac5e365ffcfc0deed157ca3b9279"
   },
   {
     "url": "js/MouseClickEffect.js",
@@ -187,63 +187,63 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/C#/index.html",
-    "revision": "b58d58d59d38239963ade1994153960a"
+    "revision": "0c9510ada5caff7bd806c40ab8d7dd53"
   },
   {
     "url": "tag/Cloud Storage/index.html",
-    "revision": "8abd3ed4edda7334ebb71f392a2c7ec7"
+    "revision": "a3771b29c230e07fc124a96420b89564"
   },
   {
     "url": "tag/Cpp/index.html",
-    "revision": "475d1fe40c59c8ed290b8f4051e42dc2"
+    "revision": "ef2d6f796aeee0dcc4159c6d972e3aa1"
   },
   {
     "url": "tag/Discord/index.html",
-    "revision": "5309419a15e760e3f3c2d0c2ad0ea9bb"
+    "revision": "c7272d42de4489749e810c8b24cda458"
   },
   {
     "url": "tag/File/index.html",
-    "revision": "d54540919ce268c19f11044bfafb0bd7"
+    "revision": "b0c1c5d2db025e715e188eb22efa91ad"
   },
   {
     "url": "tag/index.html",
-    "revision": "c539b347b49d531ef10160501a54c967"
+    "revision": "252eb901bef531b7cec45eb6e8db3e83"
   },
   {
     "url": "tag/Microsoft/index.html",
-    "revision": "2c9a1b505dfbc099ee7baa54db3d1ef5"
+    "revision": "cac2f2402e276985a0812db218a4a4b3"
   },
   {
     "url": "tag/Properties/index.html",
-    "revision": "fcd5057673a8612f19dd3128f75a8b8f"
+    "revision": "2e2c121987d1c6f3e8f8564c99a3279d"
   },
   {
     "url": "tag/Python/index.html",
-    "revision": "892243190ee371b00d9d64d7f9027e50"
+    "revision": "a5e751129c21afc67efa52584a481786"
   },
   {
     "url": "tag/Website/index.html",
-    "revision": "3001e9c48a5e91a699e137061893ded4"
+    "revision": "a7a432db5e8ddf5a700c752b6abfac8b"
   },
   {
     "url": "tag/Windows/index.html",
-    "revision": "2ebd8bc04a4d9255745d8cddd9dffb8f"
+    "revision": "f3cc24e7957090d4e1cf759b09d354cc"
   },
   {
     "url": "timeline/index.html",
-    "revision": "61c0e7066816b9a78018a095b5e33a8b"
+    "revision": "ba06c7d7943bf02dbc168c6e80b06c42"
   },
   {
     "url": "website/personalBlog.html",
-    "revision": "1dc31137b1a698e13b93bc5e627d0d0b"
+    "revision": "bfb256958667b7640d3ac9e8b70c953a"
   },
   {
     "url": "windows/usingOneDrive.html",
-    "revision": "3aab4bd9ba32d17a7b3488eab1627d44"
+    "revision": "ef3968fe218c24623d3931e7374bf196"
   },
   {
     "url": "windows/windowsBetterLook.html",
-    "revision": "682fbe89731926e72714ec34a924ad2e"
+    "revision": "742bb7d7b5b46ec14a43a49d6e02f3c6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
